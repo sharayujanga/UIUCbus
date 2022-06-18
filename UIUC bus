@@ -1,0 +1,6 @@
+import requests
+
+api_call = 'https://developer.cumtd.com/api/v2.2/json/getstopsbystop?key=5544f17d5e064480a8c24a77896a9595'
+
+response = requests.get(api_call)
+print(response.json())
